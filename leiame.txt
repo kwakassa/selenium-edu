@@ -1,0 +1,7 @@
+FirefoxProfile ffProfile = new FirefoxProfile(new File("C:\\Users\\Fayaz\\Desktop\\Selenium\\custom")); // firefox profile**
+  ffProfile.setAcceptUntrustedCertificates(true);
+  ffProfile.setAssumeUntrustedCertificateIssuer(false);
+  WebDriver driver = new FirefoxDriver(ffProfile);
+  driver.get(URL);
+
+https://seleniummonk.blogspot.com/p/how-to-handle-ssl-cerificates.html
